@@ -1,0 +1,28 @@
+* {
+    font-size: 100%;
+    text-align: center
+}
+
+body {
+    position: relative;
+    background: linear-gradient(117.05deg, #357886 -0.33%, #3499AE 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quadrado_laranja {
+    position: fixed;
+    width: 112px;
+    height: 109px;
+    left: 59px;
+    top: 218px;
+    background: #CA6F00;
+    border-radius: 25px;
+}
+
+.icone {
+    position: fixed;
+    width: 77px;
+    height: 77px;
+    left: 76px;
+    top: 235px;
+}
