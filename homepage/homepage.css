@@ -85,6 +85,7 @@ body {
 }
 
 .texto {
+    width: max-content;
     position: relative;
     left: 25vh;
     top: 7vh;
@@ -94,8 +95,16 @@ body {
     font-size: 20px;
     line-height: 25px;
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
+    color: black;
+    background: rgba(20.8, 47.1, 52.5, 0.001);
+}
+
+.texto:hover {
+    background-color: #CA6F00;
+    transition: 400ms, color 1s, background-color 0.4s;
+    border-radius: 2vh;
 }
 
 .icone {
