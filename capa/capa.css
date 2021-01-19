@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(117.05deg, #357886 -0.33%, #3499AE 100%);
+    border-radius: 20px;
 }
 
 .container {
@@ -34,6 +35,7 @@ body {
 .titulo {
     display: flex;
     position: relative;
+    width: max-content;
     top: 70vh;
     left: 15vw;
     font-family: 'Quicksand';
@@ -46,18 +48,27 @@ body {
 }
 
 .botao {
-    width: 10vh;
+    display: flex;
+    position: relative;
     height: 10vh;
+    width: 10vh;
     left: 50vw;
-    bottom: -9px;
+    top: 75vh;
     border: none;
     background-color: rgba(52, 153, 174, 0.001);
     border-radius: 20px;
     box-shadow: 0 0 40px 40px rgba(20.8, 47.1, 52.5, 0.001) inset, 0 0 0 0 rgba(52, 153, 174, 0.001);
     -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 .botao:hover {
     box-shadow: 0 0 10px 0 #86b7d8 inset, 0 0 10px 4px #86b7d8;
+}
+
+.seta {
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2vw solid #BECCED;
+    margin-top: 50%;
 }

@@ -1,28 +1,177 @@
 * {
-    font-size: 100%;
-    text-align: center
+    margin: 0 auto;
+    border: 0;
+}
+
+html {
+    position: static;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    position: relative;
     background: linear-gradient(117.05deg, #357886 -0.33%, #3499AE 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
-.quadrado_laranja {
+.container_titulo {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 78vh;
+    display: flex;
+}
+
+.container_titulo_cidade {
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    left: 85vh;
+    display: flex;
+}
+
+.titulo {
+    position: relative;
+    width: auto;
+    height: 1vh;
+    top: 50vh;
+    font-family: Economica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    color: #BECCED;
+}
+
+.titulo_cidade {
+    position: relative;
+    width: auto;
+    height: 1vh;
+    top: 50vh;
+    font-family: Economica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    color: #BECCED;
+}
+
+.imagem_municipio {
     position: fixed;
-    width: 112px;
-    height: 109px;
-    left: 59px;
-    top: 218px;
+    top: -4vh;
+    width: 95vh;
+    height: 125vh;
+    left: 55vw;
+}
+
+.imagem_cidade {
+    position: fixed;
+    top: -15vh;
+    width: 120vh;
+    height: 135vh;
+}
+
+.botao_laranja {
+    position: relative;
+    width: 12vh;
+    height: 12vh;
+    left: 10vh;
     background: #CA6F00;
-    border-radius: 25px;
+    border-radius: 2vh;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.botao_laranja:hover {
+    box-shadow: 0 0 20px 0 #CA6F00 inset, 0 0 20px 8px #CA6F00;
+}
+
+.texto {
+    position: relative;
+    left: 25vh;
+    top: 7vh;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .icone {
-    position: fixed;
-    width: 77px;
-    height: 77px;
-    left: 76px;
-    top: 235px;
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+    width: 10vh;
+    height: 10vh;
+}
+
+.primeiro_container {
+    position: absolute;
+    top: 3vh;
+}
+
+.segundo_container {
+    position: absolute;
+    top: 18vh;
+}
+
+.terceiro_container {
+    position: absolute;
+    top: 33vh;
+}
+
+.quarto_container {
+    position: absolute;
+    top: 48vh;
+}
+
+.quinto_container {
+    position: absolute;
+    top: 63vh;
+}
+
+.sexto_container {
+    position: absolute;
+    top: 78vh;
+}
+
+.linha {
+    position: relative;
+    width: 99vw;
+    height: 11px;
+    left: 0px;
+    top: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.seta {
+    position: relative;
+    left: 0px;
+    top: 0vh;
+    width: 0;
+    height: 0;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 2vw solid #BECCED;
+    margin-left: 35%;
+}
+
+.botao {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 94vw;
+    top: 45vh;
+    border: none;
+    background-color: rgba(52, 153, 174, 0.001);
+    border-radius: 20px;
+    box-shadow: 0 0 40px 40px rgba(20.8, 47.1, 52.5, 0.001) inset, 0 0 0 0 rgba(52, 153, 174, 0.001);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.botao:hover {
+    box-shadow: 0 0 10px 0 #86b7d8 inset, 0 0 10px 4px #86b7d8;
 }
