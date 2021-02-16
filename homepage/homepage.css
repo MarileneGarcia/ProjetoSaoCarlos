@@ -156,30 +156,15 @@ div>* {
 }
 
 .barramento {
-    height: 12vh;
+    height: max-content;
     left: 0px;
     background: rgba(53, 120, 134, 0.86);
     opacity: 0.8;
 }
 
-.botao_barramento {
-    margin-left: 1vw;
-    margin-top: 2vh;
-    width: max-content;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    color: black;
-    background: rgba(20.8, 47.1, 52.5, 0.001);
-}
-
-.botao_barramento:hover {
-    background-color: #CA6F00;
-    transition: border-radius 400ms, color 1s, background-color 0.4s;
-    box-shadow: 5px 10px;
-    border-radius: 2vh;
+.logo {
+    width: 10vh;
+    height: 10vh;
 }
 
 .clearfix {
@@ -190,4 +175,36 @@ div>* {
     content: "";
     clear: both;
     display: table;
+}
+
+.menu {
+    width: max-content;
+}
+
+.column {
+    float: right;
+    padding: 2vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+}
+
+.menu li {
+    padding: 1vh;
+    margin-bottom: 1vh;
+    background-color: #357886;
+    color: #ffffff;
+}
+
+.menu li:hover {
+    background-color: #BECCED;
+    border-radius: 2vh;
 }

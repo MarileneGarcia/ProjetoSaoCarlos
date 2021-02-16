@@ -1,0 +1,92 @@
+* {
+    margin: 0 auto;
+    border: 0;
+}
+
+html {
+    background: linear-gradient(117.05deg, #357886 -0.33%, #3499AE 100%);
+}
+
+body {
+    position: relative;
+}
+
+div>* {
+    vertical-align: middle;
+    overflow: auto;
+}
+
+.header {
+    display: inline-block;
+    width: 99vw;
+}
+
+.container {
+    width: max-content;
+    height: max-content;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #BECCED;
+}
+
+.botao_laranja {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 1vw;
+    background: #CA6F00;
+    border-radius: 2vh;
+    display: inline-block;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.botao_laranja:hover {
+    box-shadow: 0 0 20px 0 #CA6F00 inset, 0 0 20px 8px #CA6F00;
+}
+
+.titulo {
+    width: max-content;
+    height: max-content;
+    float: right;
+    font-family: Economica;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    color: #BECCED;
+    margin-top: 5vh;
+    margin-right: 3vw;
+}
+
+.barra_pesquisa {
+    margin-top: 3vh;
+    width: max-content;
+    margin-left: 37vw;
+}
+
+.vertical_laranja {
+    background: #CA6F00;
+    height: 3vh;
+    width: 0.15vw;
+    display: inline-block;
+}
+
+.pesquisa {
+    background: #BECCED;
+    border-radius: 25px;
+    width: 60vw;
+    height: 3vh;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
