@@ -22,18 +22,6 @@ div>* {
     width: 99vw;
 }
 
-.container {
-    width: max-content;
-    height: max-content;
-    margin-left: 2vw;
-    margin-top: 10vh;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3vh;
-    color: #BECCED;
-}
-
 .texto_botao {
     font-family: Quicksand;
     font-style: normal;
@@ -133,18 +121,20 @@ div>* {
 }
 
 .containers {
-    background-color: #BECCED;
-    height: 20vh;
-    margin-left: 3vw;
+    background: #357886;
+    border: 2px solid #BECCED;
     border-radius: 2%;
-    margin-bottom: 2vh;
+    box-sizing: border-box;
 }
 
 .coluna {
+    margin-bottom: 2vh;
+    margin-left: 3%;
+    margin-top: 3%;
     float: left;
-    margin-top: 3vh;
-    width: 25vw;
+    width: 45%;
     height: 73vh;
+    padding: 1vh;
     overflow-y: scroll;
 }
 
@@ -155,8 +145,42 @@ div>* {
 }
 
 .texto {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFCFC;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.texto_sombreado {
+    background: rgba(2, 86, 104, 0.24);
+    border-radius: 25px;
+    width: max-content;
+    float: left;
+}
+
+.texto_inferior {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
     text-align: center;
-    font-family: Economica;
+    color: #FFFFFF;
+}
+
+.texto_mapas {
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 2%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: max-content;
+    float: left;
 }
 
 .imagem_principal {
@@ -166,5 +190,65 @@ div>* {
 
 .imagens {
     width: 100%;
-    height: 75%;
+    height: 93%;
+}
+
+.container {
+    margin-top: 1%;
+    margin-left: 2%;
+    position: relative;
+    float: left;
+    width: 6vh;
+    height: 7vh;
+}
+
+.container img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.container .btn {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    font-family: Quicksand;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: #BECCED;
+    font-size: 1.5vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+
+.container .btn:hover {
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: max-content;
+    height: max-content;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cont {
+    width: max-content;
+    height: max-content;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #BECCED;
 }

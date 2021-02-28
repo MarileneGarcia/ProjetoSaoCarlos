@@ -135,15 +135,20 @@ div>* {
 .containers {
     background-color: #BECCED;
     height: 20vh;
-    margin-left: 3vw;
     border-radius: 2%;
     margin-bottom: 2vh;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .coluna {
     float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.filas {
     margin-top: 3vh;
-    width: 25vw;
     height: 73vh;
     overflow-y: scroll;
 }

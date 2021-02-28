@@ -70,6 +70,7 @@ div>* {
 }
 
 .botao_laranja {
+    cursor: pointer;
     width: 12vh;
     height: 12vh;
     margin-left: 1vh;
@@ -85,6 +86,7 @@ div>* {
 }
 
 .texto {
+    cursor: pointer;
     margin-left: 2vh;
     font-family: Quicksand;
     font-style: normal;
@@ -99,7 +101,7 @@ div>* {
 .texto:hover {
     background-color: #CA6F00;
     transition: border-radius 400ms, color 1s, background-color 0.4s;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 5px;
     border-radius: 2vh;
 }
 
@@ -146,65 +148,4 @@ div>* {
 
 .botao:hover {
     box-shadow: 0 0 10px 0 #86b7d8 inset, 0 0 10px 4px #86b7d8;
-}
-
-.linha {
-    height: 2vh;
-    left: 0px;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0.8;
-}
-
-.barramento {
-    height: max-content;
-    left: 0px;
-    background: rgba(53, 120, 134, 0.86);
-    opacity: 0.8;
-}
-
-.logo {
-    width: 10vh;
-    height: 10vh;
-}
-
-.clearfix {
-    overflow: auto;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.menu {
-    width: max-content;
-}
-
-.column {
-    float: right;
-    padding: 2vh;
-}
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.5vh;
-    line-height: 2.5vh;
-}
-
-.menu li {
-    padding: 1vh;
-    margin-bottom: 1vh;
-    background-color: #357886;
-    color: #ffffff;
-}
-
-.menu li:hover {
-    background-color: #BECCED;
-    border-radius: 2vh;
 }

@@ -134,18 +134,16 @@ div>* {
 
 .containers {
     background-color: #BECCED;
-    height: 20vh;
-    margin-left: 3vw;
+    height: 55vh;
     border-radius: 2%;
     margin-bottom: 2vh;
+    margin-left: 3%;
 }
 
 .coluna {
     float: left;
-    margin-top: 3vh;
-    width: 25vw;
-    height: 73vh;
-    overflow-y: scroll;
+    width: 45%;
+    padding: 1vh;
 }
 
 .fila:after {
@@ -155,8 +153,30 @@ div>* {
 }
 
 .texto {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFCFC;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.texto_sombreado {
+    background: rgba(2, 86, 104, 0.24);
+    border-radius: 25px;
+    width: max-content;
+    float: left;
+}
+
+.texto_inferior {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
     text-align: center;
-    font-family: Economica;
+    color: #FFFFFF;
 }
 
 .imagem_principal {
@@ -166,5 +186,5 @@ div>* {
 
 .imagens {
     width: 100%;
-    height: 75%;
+    height: 93%;
 }
